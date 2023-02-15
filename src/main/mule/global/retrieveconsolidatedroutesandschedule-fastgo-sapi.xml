@@ -45,7 +45,6 @@ attributes.headers.transactionId]]></ee:set-variable>
 		<logger level="INFO" doc:name="Logger" doc:id="08b9dd2b-1d6f-4ff6-a4e6-68342c0a037a" message="Request Received for Routes FastGo SAPI For TransactionId: #[vars.transactionId]"/>
 		<flow-ref doc:name="Flow Reference" doc:id="f810d4b1-210f-40da-91f8-997defa842c6" name="fastGo-getRoutes-implementationSub_Flow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="e4c8d159-86cd-43fe-b3e4-4d0e34c50bae" message="Response Sent for Routes FastGo SAPI For TransactionId: #[vars.transactionId]"/>
-    
     </flow>
     <flow name="get:\(transportType)\(transportCompany)\schedules:retrieveconsolidatedroutesandschedule-fastgo-sapi-config">
         <flow-ref doc:name="Flow Reference Initialize Request Variable " doc:id="9a16b20a-3ea5-4d2c-a86a-7dd3abcbeff7" name="retrievetravelontiproutesandschedule-sapi-InitializeRequestVariable-Sub_Flow"/>
