@@ -20,8 +20,8 @@ output application/json
 ---
 payload map(value,index)->{
 	
-    "departureLocationCode": value.destinationLocationcode,  
-    "arrivalLocationCode": value.originLocationcode
+    "departureLocationCode": value.destinationlocationcode,
+    "arrivalLocationCode": value.originlocationcode
   
 } ]]></ee:set-payload>
 			</ee:message>
